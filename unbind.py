@@ -79,7 +79,6 @@ print("\n\n2. Unbind the database from the application.\n")
 technical_name = input("Technical name of the of the target java service (not the system): ")
 java_application = input("Java application(ex. c4paservices): ")
 landscape = input("Landscape: ")
-# host_name = input("Host name for the given region (ex.: us3.hana.ondemand.com): ")
 binding = input("Binding to be removed (Data Source): ")
 
 if landscape.lower() == "ae1":
