@@ -7,6 +7,7 @@ Open unbind.bat and follow the instructions.
 
 1. Open a terminal
 2. Navigate to the folder where unbind files are located
-3. Type chmod a+x unbind.sh and press Enter
-4. Type ./unbind.sh and press Enter
-5. Follow the instructions
+3. Install 'jq'
+4. Type 'chmod a+x unbind.sh' and press Enter
+5. Type './unbind.sh' and press Enter
+6. Follow the instructions

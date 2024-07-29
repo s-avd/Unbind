@@ -103,6 +103,8 @@ elif landscape.lower() == "us1":
     host_name = "us1.hana.ondemand.com"
 elif landscape.lower() == "us3":
     host_name = "us3.hana.ondemand.com"
+elif landscape.lower() == "eudp":
+    host_name = "hana.ondemand.com"
 
 if name == 'nt':
     unbind = f"neo.bat unbind-db -a {technical_name} -b {java_application} -h {host_name} -s {binding} -u JWT -p {jwt}"
